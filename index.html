@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" media="all" href="css/reset.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/text.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/960.css" />
+	<title>Titulo</title>
+	<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+	<script type="text/javascript">
+		$(function() {
+  			$('a[href*=#]:not([href=#])').click(function() {
+    			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      					var target = $(this.hash);
+      					target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      						if (target.length) {
+        						$('html,body').animate({
+          						scrollTop: target.offset().top
+        					}, 2000);
+        					return false;
+      					}
+    				}
+  				});
+			});
+	</script>
+</head>
+<body>
+
+
+	<ul class="container_12">
+		<li class="grid_4 navigation navigation-left">
+			<h1>
+				<a href="#logo">
+					<img id="logo" class="logo" src="logo_files/960_logo.png">
+				</a>
+			</h1>
+		</li>
+		<li class="grid_2 navigation-text"><a href="#item1">Men&uacute; 1</a></li>
+		<li class="grid_2 navigation-text"><a href="#item2">Men&uacute; 2</a></li>
+		<li class="grid_2 navigation-text"><a href="#item3">Men&uacute; 3</a></li>
+		<li class="grid_2 navigation-text navigation-right"><a href="#item4">Men&uacute; 4</a></li>
+	</ul>
+	<div class="clear"></div>
+	<div id="item1" class="container_12 contenido">
+		<div class="grid_6">
+			<iframe width="440" height="280" src="http://www.youtube.com/embed/udughzlN5M4" frameborder="0" allowfullscreen></iframe>
+		</div>
+		<div class="grid_6">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+
+	<div class="clear"></div>
+
+	<div id="item2" class="container_12 contenido">
+		<div class="grid_4"><img class="icono" src="http://prismitsolutions.com/images/icons/html5-new.png"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+		<div class="grid_4"><img class="icono" src="http://www.gtec.com.ec/wp-content/uploads/2013/01/css3_tec.png"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+		<div class="grid_4"><img class="icono" width="60" height="60" src="http://www.imperdiblesoft.com/img/tecnologias/javascript.png"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+	</div>
+	</div>
+
+	<div class="clear"></div>
+
+	<div id="item3" class="frase">
+		<div class="container_12">
+			<div class="grid_1 comillas"><em>&#8220;</em></div>
+			<div class="grid_10">
+				<em>Cualquier tonto puede escribir c&oacute;digo que un ordenador entiende. Los buenos programadores escriben c&oacute;digo que los humanos pueden entender. </em> (Martin Fowler)
+			</div>
+			<div class="grid_1 comillas"><em>&#8221;</em></div>
+		</div>
+	</div>
+
+	<div class="clear"></div>
+
+	<div class="container_12 contenido">
+		<div class="grid_4">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.045194923131!2d-65.20419249825359!3d-26.83851479094732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c08b676a053%3A0xe6cdaf46d4f3794d!2sGral+Lamadrid+318%2C+San+Miguel+de+Tucum%C3%A1n%2C+Tucum%C3%A1n!5e0!3m2!1ses!2sar!4v1417542983848" width="300" height="300" frameborder="0" style="border:0"></iframe>
+		</div>
+		<div class="grid_8">
+			<ul>
+				<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+				<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+				<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="clear"></div>
+
+
+	<div id="item3" class="frase">
+		<div id="item4" class="container_12">
+			<div class="grid_1 comillas"><em>&#8220;</em></div>
+			<div class="grid_4">
+				<img class="photo" src="img/einstein.jpeg">
+			</div>
+			<div class="grid_6">
+				<em>Todos somos muy ignorantes. Lo que ocurre es que no todos ignoramos las mismas cosas.</em>(Albert Einstein)
+			</div>
+			<div class="grid_1 comillas"><em>&#8221;</em></div>
+		</div>
+	</div>
+
+	<div class="clear"></div>
+
+	<div class="container_12 foot">
+		<div class="grid_3">
+				<a href="#logo">
+					<img id="logo" class="logo" src="logo_files/960_logo.png">
+				</a>
+		</div>
+		<div class="grid_3">
+			<ul class="sitemap">
+				<li><a href="#">Products</a></li>
+				<li><a href="#">Category 1</a></li>
+				<li><a href="#">Category 2</a></li>
+				<li><a href="#">Category 3</a></li>
+			</ul>
+		</div>
+		<div class="grid_3">
+			<ul class="sitemap">
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Category 1</a></li>
+				<li><a href="#">Category 2</a></li>
+				<li><a href="#">Category 3</a></li>
+			</ul>
+		</div>
+		<div class="grid_3">
+			<ul class="sitemap">
+				<li><a href="#">Clients</a></li>
+				<li><a href="#">Login</a></li>
+				<li><a href="#">Register</a></li>
+				<li><a href="#">Help</a></li>
+			</ul>
+		</div>
+	</div>
+
+
+</body>
+</html>
